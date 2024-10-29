@@ -1,5 +1,5 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
+  "update_url": "https://clients2.google.com/service/update2/crx",
 
   "name": "Instant Data Scraper",
   "version": "0.1.7",
@@ -8,8 +8,12 @@
   "browser_action": {
     "default_icon": "pokeball64.png"
   },
-  "permissions": [ "activeTab", "tabs", "webRequest", "<all_urls>",
-	  "https://ssl.google-analytics.com/*"
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "webRequest",
+    "<all_urls>",
+    "https://ssl.google-analytics.com/*"
   ],
   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://code.jquery.com https://cdnjs.cloudflare.com https://fastcdn.org https://maxcdn.bootstrapcdn.com; object-src 'self'",
   "icons": {
@@ -19,7 +23,7 @@
     "128": "pokeball128.png"
   },
   "background": {
-      "scripts": ["background.js"]
+    "scripts": ["background.js"]
   },
   "content_scripts": [
     {

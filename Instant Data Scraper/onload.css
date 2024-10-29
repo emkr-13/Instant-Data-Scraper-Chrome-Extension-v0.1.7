@@ -1,15 +1,15 @@
 .tablescraper-selected-table {
-    border: 3px solid red !important;
+  border: 3px solid red !important;
 }
 
 .tablescraper-selected-row {
-    background-color: rgba(225,227,107,.54) !important;
+  background-color: rgba(225, 227, 107, 0.54) !important;
 }
 
 .tablescraper-hover {
-    background-color: rgba(159,238,155,.44) !important;
+  background-color: rgba(159, 238, 155, 0.44) !important;
 }
 
 .tablescraper-next-button {
-    background-color: green !important;
+  background-color: green !important;
 }
